@@ -55,7 +55,6 @@ When ('I click on sign up with username and blank password', function(){
 })
 
 
-
 //clicking on the signup button
 When ('I click the sign up button', function() {
     cy.get('[class="btn btn-primary"]').contains('Sign up').click();
