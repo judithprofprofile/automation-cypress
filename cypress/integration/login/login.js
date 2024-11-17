@@ -14,7 +14,7 @@ beforeEach( function(){
 Given ('I navigate to demoblaze ecommerce page', function() {
 
   // Visit the website
-  cy.visit('https://www.demoblaze.com/')
+  cy.visit('https://demoblaze.com/cart.html')
   cy.wait(10000)
   cy.get('#login2').should('be.visible') // Ensuring the login button is visible
 })

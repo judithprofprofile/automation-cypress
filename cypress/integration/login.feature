@@ -18,7 +18,7 @@ Feature: Demoblaze login functionality test
         When I enter an invalid username and a valid password
         When I click the Log in button
         Then I should see an error message displayed
-     @login1 
+     @login1  
     Scenario: Login with valid username and invalid password
         Given I navigate to demoblaze ecommerce page
         When I click on the login button

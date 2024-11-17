@@ -1,7 +1,7 @@
 Feature: Demoblaze login functionality test
 
     Application regression​
-  @login1
+  @signup1
     
     Scenario: Navigating to the Demoblaze homepage
         Given I navigate to demoblaze ecommerce page
